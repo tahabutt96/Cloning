@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.internship.cloning.ebad.cardFive;
+import com.internship.cloning.taha.cardOne;
+
 public class MainActivity extends AppCompatActivity {
 
     Button one , two , threee , four , five , six;
@@ -28,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 new Thread(new Runnable() {
                     public void run() {
                         try {Thread.sleep(5000);
-                            Intent intent = new Intent(MainActivity.this,cardOne.class);
+                            Intent intent = new Intent(MainActivity.this, cardOne.class);
                             startActivity(intent);
                         } catch (Exception e) {
                             e.printStackTrace();
@@ -113,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
                 new Thread(new Runnable() {
                     public void run() {
                         try {Thread.sleep(5000);
-                            Intent intent = new Intent(MainActivity.this,cardFive.class);
+                            Intent intent = new Intent(MainActivity.this, cardFive.class);
                             startActivity(intent);
                         } catch (Exception e) {
                             e.printStackTrace();

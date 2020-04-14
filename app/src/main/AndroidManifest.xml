@@ -11,20 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".taha.DataActivity"></activity>
         <activity android:name=".cardSix" />
-        <activity android:name=".cardFive" />
+        <activity android:name=".ebad.cardFive" />
         <activity android:name=".cardThree" />
         <activity android:name=".cardFour" />
         <activity android:name=".cardTwo" />
-        <activity android:name=".cardOne" />
-        <activity android:name=".splash">
+        <activity android:name=".taha.cardOne">
+
+        </activity>
+        <activity android:name=".splash"
+            android:theme="@style/splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

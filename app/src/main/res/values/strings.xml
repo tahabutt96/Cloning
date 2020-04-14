@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Cloning</string>
+
+    <string name="styled_welcome_message">We are <b><i>so</i></b> glad to see you.</string>
 </resources>

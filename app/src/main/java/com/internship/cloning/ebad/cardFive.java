@@ -1,4 +1,4 @@
-package com.internship.cloning;
+package com.internship.cloning.ebad;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.webkit.CookieManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.internship.cloning.R;
 
 public class cardFive extends AppCompatActivity {
 
