@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".card_THREE.cardInnerThree"
     android:orientation="vertical"
-    tools:context=".card_TWO.cardTwo"
     android:layout_margin="5dp">
 
     <androidx.recyclerview.widget.RecyclerView

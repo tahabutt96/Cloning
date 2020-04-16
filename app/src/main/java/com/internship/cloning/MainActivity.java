@@ -8,8 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.internship.cloning.ebad.cardFive;
-import com.internship.cloning.taha.cardOne;
+import com.internship.cloning.card_FIVE.cardFive;
+import com.internship.cloning.card_FOUR.cardFour;
+import com.internship.cloning.card_ONE.cardOne;
+import com.internship.cloning.card_SIX.cardSix;
+import com.internship.cloning.card_THREE.cardThree;
+import com.internship.cloning.card_TWO.cardTwo;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -53,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 new Thread(new Runnable() {
                     public void run() {
                         try {Thread.sleep(5000);
-                            Intent intent = new Intent(MainActivity.this,cardTwo.class);
+                            Intent intent = new Intent(MainActivity.this, cardTwo.class);
                             startActivity(intent);
                         } catch (Exception e) {
                             e.printStackTrace();
@@ -74,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 new Thread(new Runnable() {
                     public void run() {
                         try {Thread.sleep(5000);
-                            Intent intent = new Intent(MainActivity.this,cardThree.class);
+                            Intent intent = new Intent(MainActivity.this, cardThree.class);
                             startActivity(intent);
                         } catch (Exception e) {
                             e.printStackTrace();
@@ -95,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                 new Thread(new Runnable() {
                     public void run() {
                         try {Thread.sleep(5000);
-                            Intent intent = new Intent(MainActivity.this,cardFour.class);
+                            Intent intent = new Intent(MainActivity.this, cardFour.class);
                             startActivity(intent);
                         } catch (Exception e) {
                             e.printStackTrace();
@@ -137,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
                 new Thread(new Runnable() {
                     public void run() {
                         try {Thread.sleep(5000);
-                            Intent intent = new Intent(MainActivity.this,cardSix.class);
+                            Intent intent = new Intent(MainActivity.this, cardSix.class);
                             startActivity(intent);
                         } catch (Exception e) {
                             e.printStackTrace();

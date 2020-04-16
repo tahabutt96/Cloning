@@ -4,6 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cardSix">
+    tools:context=".card_SIX.cardSix" android:orientation="horizontal"
+    >
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="You Will have to attempt total 41 Questions covering Python,NumPy,Pandas,Data Visualization,Web Scrapping (Beautiful soap),Statistics"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif"
+            android:text="For Each Question you will get 4 Options and have to select 1 correct answer"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif"
+            android:text="For Each Question you will get 4 Options and have to select 1 correct answer"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="175dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif"
+            android:text="You can Quit Any time anywhere but we suggest that you should take the complete quiz as we see our real life you cannot resume any Quiz"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif"
+            android:text="Press the Start Exam button below to start the exam"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif"
+            android:text="Happy learning wishing you the best of luck!!!"
+            />
+        <Button
+            android:id="@+id/start"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@color/greem"
+            android:text="Start Exam" />
+
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

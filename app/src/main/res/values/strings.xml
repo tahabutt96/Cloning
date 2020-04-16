@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Cloning</string>
+    <string name="app_name">Data Science using R and Python programming - Free</string>
 
-    <string name="styled_welcome_message">We are <b><i>so</i></b> glad to see you.</string>
 </resources>

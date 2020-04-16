@@ -1,4 +1,4 @@
-package com.internship.cloning.taha;
+package com.internship.cloning.card_ONE;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
